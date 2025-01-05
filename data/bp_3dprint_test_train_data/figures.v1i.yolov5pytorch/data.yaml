@@ -1,0 +1,13 @@
+train: data\bp_3dprint_test_train_data\figures.v1i.yolov5pytorch\train\images
+val: data\bp_3dprint_test_train_data\figures.v1i.yolov5pytorch\valid\images
+test: data\bp_3dprint_test_train_data\figures.v1i.yolov5pytorch\test\images
+
+nc: 2
+names: ['mistake', 'noMistake']
+
+roboflow:
+  workspace: yolo-1t5zh
+  project: figures-jswnf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-1t5zh/figures-jswnf/dataset/1
